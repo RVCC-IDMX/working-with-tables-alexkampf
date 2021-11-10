@@ -1,3 +1,53 @@
 body {
-  background-color: aliceblue;
+  background-image:linear-gradient(#298AA7 50%, #FE9014);
+  text-align: center;
+  color: aliceblue;
+}
+
+h1, h2{
+  text-shadow: 2px 2px 5px #251939;
+}
+
+table{
+  box-shadow: 5px 5px 8px #251939;
+  background-color: #372554;
+  text-align: center;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  border:5px solid skyblue;
+  border-radius: 15px;
+}
+
+td{
+  margin: auto;
+  border-bottom: 1px solid skyblue;
+}
+
+caption{
+  margin-top: 10px;
+ 
+  
+}
+
+ul{
+  list-style: none;
+  padding: 0px;
+  border:5px solid skyblue;
+  border-radius: 15px;
+  box-shadow: 5px 5px 8px #251939;
+  background-color: #372554;
+}
+
+li{
+  margin: 1rem;  
+}
+a:link{
+  color: aliceblue;
+  text-decoration: none;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: skyblue;
 }
